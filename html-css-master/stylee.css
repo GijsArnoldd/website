@@ -1,0 +1,292 @@
+html, body {
+   
+    height: 100%;
+    background-color: #EEEEEE;  
+    width: 800px;
+    font: Verdana, Arial, Sans-Serif;
+    margin: center;
+    scroll-behavior: smooth;
+}
+body a:visited{
+    font-style: none;
+}
+
+.banner{
+    background-image: url("afbeeldingen/voorkantfoto.jpg");
+   
+    width: 700px;
+}
+.banner background-image{
+    z-index: 1;
+    opacity: 0.75;
+
+}
+
+span .geel{
+    color: orange;
+}
+.begintekst a{
+    font-style: italic;
+}
+.titel{
+   text-align: center;
+   clear: both;
+}
+.titel h1{
+    text-shadow: 1px 1px rgb(245, 245, 245);
+}
+.populair{
+    display: flex;
+    justify-content: space-around;
+}
+.populair div{
+    margin: 20px;
+}
+main {
+
+    margin: 0 auto;
+
+    width: 700px;
+
+    position: relative;
+
+}
+
+
+.activiteiten1, .activiteiten2{
+    display: flex;
+    flex-direction: row;
+}
+.activiteiten1 h3, .activiteiten2 h3{
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: rgb(230, 218, 218);
+    font-size: 30px;
+}
+.activiteiten1 img, .activiteiten2 img{
+    filter: brightness(80%);
+    padding: 10px;
+}
+
+.photography {
+    clear: both;
+    float: left;
+}
+/* specifieke stijlen */
+html{
+    scroll-behavior: smooth;
+}
+
+
+header {
+    text-align: center;
+}
+
+
+
+
+
+footer {
+
+    text-align: center;
+    clear: both;
+    padding-bottom: 10px;
+
+}
+
+
+a:visited{
+font-style: none;
+}
+
+header hr{
+    width: 200px;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+
+.smalltext {
+
+    font-size: 0.7em;
+
+}
+
+a:hover img {
+    filter: brightness(50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* navigatiebalk */
+.navigatiebalk{
+    width: 690px;
+}
+.navigatiebalk li span {
+    float: left;      
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    height: 50px;
+    list-style-type: none;
+
+    margin: auto;
+
+    padding: 0;
+
+    background-color: white;
+
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+nav li a { 
+    display: block;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+
+
+nav li a:hover {
+  background-color: #eee;
+}
+ 
+/* de amerikareis pagina */
+#overzichtamerika{
+   display: flex;
+   flex-wrap: wrap; 
+   margin: 0 auto;
+   align-content: center;
+}
+
+#overzichtamerika div{
+flex: 1 0 50%;
+}
+/* de colombiareis pagina*/
+#overzichtcolombia{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-content: left;
+}
+#overzichtcolombia div{
+    flex: 1 0 50%;
+}
+/* algemene layout voor de 3 reizen */
+.headera {
+    background-image: url(afbeeldingen/headeramerika.jpg);
+    height: 150px;
+}
+
+.headerc{
+    background-image: url(afbeeldingen/headercolombia.jpg);
+    height: 150px;
+}
+.headeralp{
+    background-image: url(afbeeldingen/headeralpen.jpg);
+    height: 150px;
+}
+.headera background-image, .headerc background-image. headeralp background-image{
+    filter: brightness(80%);
+}
+
+.headera header, .headerc header, .headeralp header{
+    margin-top: 20px;
+    color: rgb(211, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 10px black;
+    font-size: 20px;
+}
+
+.reis {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reis img{
+    margin: 10px;
+}
+th {
+    text-align: center;
+    background-color: rgb(203, 214, 214);
+    height: 50px;
+    width: 300px;
+}
+td{
+    width: 300px;
+    text-align: left;;
+}
+.border{
+    border-right: 1px solid;
+    border-right-color: black;
+}
+.border span{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    width: 700px;
+    caption-side: bottom;
+}
+table caption{
+    text-align: left;
+    margin-top: 10px;
+}
+.begin ul{
+    list-style-type: none;
+}
+
+#algemeenalpen, #algemeencolombia, #algemeenamerika{
+background-color: rgb(203, 214, 214);
+padding-bottom: 10px;
+padding-top: 10px;
+}
+#algemeenalpen h3, #algemeencolombia h3, #algemeenamerika h3 {
+margin-left: 20px;
+margin-top: 10px;
+}
+
+/* De activiteiten pagina's */
+.headeractiviteit header {
+    
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headeractiviteitskie{
+    background-image: url(afbeeldingen/skiebanner.jpg);
+    height: 125px;
+}
+
+.headeractiviteitclimb{
+    background-image: url(afbeeldingen/climbbanner.jpg);
+}
+
+.headeractiviteithike{
+    background-image: url(afbeeldingen/hikinggbanner.jpg);
+}
+
+.headeractiviteitfoto{
+    background-image: url(afbeeldingen/fotografiebanner.jpg);
+}

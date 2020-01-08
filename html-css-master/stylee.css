@@ -1,9 +1,7 @@
 html, body {
-   
     height: 100%;
     background-color: #EEEEEE;  
     width: 800px;
-    font: Verdana, Arial, Sans-Serif;
     margin: center;
     scroll-behavior: smooth;
 }
@@ -32,9 +30,16 @@ span .geel{
    text-align: center;
    clear: both;
 }
+@font-face{
+    font-family: "caviarbold";
+    src: url("lettertypen/caviarbold.tff");
+}
 .titel h1{
     text-shadow: 1px 1px rgb(245, 245, 245);
+    font-family: "caviarbold";
 }
+
+
 .populair{
     display: flex;
     justify-content: space-around;
@@ -81,14 +86,9 @@ html{
     scroll-behavior: smooth;
 }
 
-
 header {
     text-align: center;
 }
-
-
-
-
 
 footer {
 
@@ -97,7 +97,6 @@ footer {
     padding-bottom: 10px;
 
 }
-
 
 a:visited{
 font-style: none;
@@ -110,7 +109,6 @@ header hr{
     bottom: 20px;
 }
 
-
 .smalltext {
 
     font-size: 0.7em;
@@ -120,11 +118,6 @@ header hr{
 a:hover img {
     filter: brightness(50%);
 }
-
-
-
-
-
 
 
 
@@ -168,8 +161,6 @@ nav li a {
     float: right;
 }
 
-
-
 nav li a:hover {
   background-color: #eee;
 }
@@ -185,6 +176,11 @@ nav li a:hover {
 #overzichtamerika div{
 flex: 1 0 50%;
 }
+
+.headera {
+    background-image: url(afbeeldingen/headeramerika.jpg);
+    height: 150px;
+}
 /* de colombiareis pagina*/
 #overzichtcolombia{
     display: flex;
@@ -195,20 +191,19 @@ flex: 1 0 50%;
 #overzichtcolombia div{
     flex: 1 0 50%;
 }
-/* algemene layout voor de 3 reizen */
-.headera {
-    background-image: url(afbeeldingen/headeramerika.jpg);
-    height: 150px;
-}
 
 .headerc{
     background-image: url(afbeeldingen/headercolombia.jpg);
     height: 150px;
 }
+
+/* de alpenreis */
 .headeralp{
     background-image: url(afbeeldingen/headeralpen.jpg);
     height: 150px;
 }
+/* algemene layout voor de 3 reizen */
+
 .headera background-image, .headerc background-image. headeralp background-image{
     filter: brightness(80%);
 }
